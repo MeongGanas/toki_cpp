@@ -41,8 +41,8 @@ int main(){
     cin >> A;
     cin >> B;
 
-    int vertikal = floor(N / A) * floor(M / B);
-    int horizontal = floor(N / B) * floor (M / A);
+    int vertikal = (N / A) * (M / B);
+    int horizontal = (N / B) * (M / A);
 
     int res = max(vertikal, horizontal);
 
